@@ -60,7 +60,7 @@ public class Solution {
 
             }
         }
-        // 如果都有效匹配，或者传入字符串为空，则返回false
+        // 如果都有效匹配，或者传入字符串为空，则返回true
         return stack.isEmpty();
     }
 
