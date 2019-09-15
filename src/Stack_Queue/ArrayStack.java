@@ -53,8 +53,8 @@ public class ArrayStack<E> implements Stack<E>{
 
             if (i != array.getSize() - 1)
                 str.append(",");
-            str.append("] top");
         }
+        str.append("] top");
 
         return str.toString();
     }
