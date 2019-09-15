@@ -72,6 +72,15 @@ public class Array {
         return data[index];
     }
 
+    // 获取索引为0的元素
+    public int getFirst(){
+        return get(0);
+    }
+
+    public int getLast(){
+        return get(size -1);
+    }
+
 
     // 修改索引位置的值
     public void set(int index,int e){
