@@ -118,8 +118,8 @@ public class ArrayE<E> {
 
         E result = data[index];
 
-        for (int i = index ; i < size ; i ++)
-            data[i] = data[i + 1];
+        for (int i = index ; i < size -1; i ++)
+            data[i] = data[i+1];
 
         size --;
 
