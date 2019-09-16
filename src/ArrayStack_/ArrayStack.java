@@ -1,8 +1,8 @@
-package Stack_Queue;
+package ArrayStack_;
 
 import Arrays.ArrayE;
 
-public class ArrayStack<E> implements Stack<E>{
+public class ArrayStack<E> implements Stack<E> {
     private ArrayE<E> array;
 
     public ArrayStack(int capacity){

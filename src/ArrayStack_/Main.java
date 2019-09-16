@@ -1,4 +1,4 @@
-package Stack_Queue;
+package ArrayStack_;
 
 public class Main {
     public static void main(String[] args) {
