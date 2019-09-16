@@ -1,4 +1,4 @@
-package Stack_Queue;
+package ArrayStack_;
 
 public interface Stack<E> {
     // 栈的基本方法

@@ -1,4 +1,4 @@
-package Stack_Queue;
+package ArrayStack_;
 /*
 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
 
