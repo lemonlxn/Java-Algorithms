@@ -135,6 +135,29 @@ public class LinkListDummy<E>{
 
     }
 
+    // 链表删除操作
+    // 仅做练习
+    public E remove(int index){
+        if (index < 0 || index >= size)
+            throw new IllegalArgumentException("需 index>= 0 且 index < size");
+
+        Node prev = dummyhead;
+
+        for (int i = 0 ; i < index ; i ++)
+            prev = prev.next;
+
+        // indexNode 为index节点
+        Node indexNode = prev.next;
+        prev.next = indexNode.next; // 让index 前一个节点，绕过index节点，直接指向 index下一个节点
+
+        indexNode.next = null;      // 彻底与当前链表脱离关系
+        size --;
+
+        return indexNode.e;
+    }
+
+
+
     public String toString(){
         StringBuilder str = new StringBuilder();
 

@@ -10,12 +10,12 @@ public class Main {
             System.out.println(linkListDummy);
         }
 
-        System.out.println(linkListDummy.contains(5));
 
         linkListDummy.add(1,200);
         System.out.println(linkListDummy);
 
-        System.out.println(linkListDummy.contains(200));
+        linkListDummy.remove(1);
+        System.out.println(linkListDummy);
 
 
 
