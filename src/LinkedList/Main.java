@@ -17,6 +17,17 @@ public class Main {
         linkListDummy.remove(1);
         System.out.println(linkListDummy);
 
+        System.out.println("-----------------------------------");
+
+        LinkListStack<Integer> stack = new LinkListStack<>();
+
+        for (int i = 0 ; i < 10; i ++){
+            stack.push(i);
+            System.out.println(stack);
+        }
+
+        stack.pop();
+        System.out.println(stack);
 
 
 
