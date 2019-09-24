@@ -60,7 +60,7 @@ public class LinkListDummy<E>{
             prev = prev.next;
         }
 
-        Node node = new Node(e);
+        Node node = new Node(e); // next 为null
         node.next = prev.next;
         prev.next = node;
 
