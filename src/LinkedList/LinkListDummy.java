@@ -156,6 +156,16 @@ public class LinkListDummy<E>{
         return indexNode.e;
     }
 
+    // 删除头节点
+    public E removeFirst(){
+        return remove(0);
+    }
+
+    // 删除尾节点
+    public E removeLast(){
+        return remove(size - 1);
+    }
+
 
 
     public String toString(){
